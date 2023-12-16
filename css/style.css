@@ -1126,13 +1126,18 @@ body{
     }
 
     .home h1{
-        color: #fff;
-        font-size: 4rem;
+        color: #ffffff;
+        font-size: 10rem;
+        letter-spacing: -5px;
+
+        
     }
     
     .home h2{
-        color: #fff;
-        font-size: 2rem;
+        color: #ffffff;
+        font-size: 3rem;
+
+    
     }
 
     .about{
