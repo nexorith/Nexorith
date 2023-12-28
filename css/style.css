@@ -606,9 +606,9 @@ body{
     justify-content: center;
 }
 
-.team .row .card{
-    height: 35rem;
-    width: 25rem;
+.team .row .card {
+    height: 29rem;
+    width: 30rem;
     background-color: #fff;
     text-align: center;
     margin: 5rem 5rem;
@@ -616,6 +616,7 @@ body{
     overflow: hidden;
     /* -webkit-box-reflect: below 5px linear-gradient(transparent 70%, #0004); */
     transition: 0.5s;
+    border-radius: 30px;
 }
 
 .team .row .card:hover{
@@ -635,7 +636,7 @@ body{
     border-radius: 50%;
     border: .5rem solid #fff;
     box-shadow: 0 0 .5rem rgba(0,0,0,.3);
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .team .row .card .info h3{
